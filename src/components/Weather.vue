@@ -141,14 +141,16 @@ export default {
     background: none;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 0px 16px 0px 16px;
-    transition: 0.4s;
+    border-radius: 16px;
+    border: 6px solid rgba(73, 29, 4, 0.5);
+    transition: 0.5s;
   }
 
   .search-box .search-bar:focus {
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
-    background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 16px 0px 16px 0px;
+    box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 16px;
+    border: 6px solid rgba(206, 92, 26, 0.5);
   }
 
   .location-box .location {
