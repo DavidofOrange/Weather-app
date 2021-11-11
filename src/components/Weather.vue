@@ -132,8 +132,9 @@ export default {
     display: block;
     width: 100%;
     padding: 15px;
-    color: #313131;
+    color: #000000;
     font-size: 20px;
+    font-weight: 700;
     appearance: none;
     border:none;
     outline: none;
@@ -220,6 +221,11 @@ export default {
       display: flex;
       justify-content: center;
     }
+   
+    .search-box .search-bar {
+      font-size: 15px;
+      font-weight: 700;
+  }
     .weather-box .temp {
       font-size: 1.6rem;
       font-weight: 700;
